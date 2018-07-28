@@ -18,8 +18,7 @@ make install
 
 echo -e "\n\n\ninstalling docker..."
 curl -sSL https://get.docker.com/ | sh
-## if you are not using our virtual machine please change "arg" into your user name
-sudo usermod -aG docker arg
+sudo usermod -aG docker $USER
 
 echo -e "\n\n\ninstalling OpenAI Gym..."
 cd ~
