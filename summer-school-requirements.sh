@@ -8,6 +8,7 @@ sudo apt install -y python-pip
 sudo pip install --upgrade pip
 echo -e "\n\n\ninstalling jupyter notebook..."
 sudo pip install jupyter
+sudo pip install keras
 
 echo -e "\n\n\ninstalling ncsdk..."
 mkdir -p ~/ncs
