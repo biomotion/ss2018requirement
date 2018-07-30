@@ -39,6 +39,3 @@ git clone https://github.com/duckietown/Software.git ~/duckietown
 
 echo -e "\n\n\ncloning summer school 2018 tw"
 git clone https://github.com/duckietown/summer-school-2018-tw.git
-
-echo -e "\n\n\ncloning ros tutorial"
-git clone https://github.com/championway/ros_tutorial.git
