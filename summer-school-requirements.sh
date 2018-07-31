@@ -42,6 +42,9 @@ cd ~
 
 echo -e "\n\n\ncloning duckietown"
 git clone https://github.com/duckietown/Software.git ~/duckietown
+cd ~/duckietown
+/bin/bash ./dependencies_for_laptop.sh
 
 echo -e "\n\n\ncloning summer school 2018 tw"
+cd ~
 git clone https://github.com/duckietown/summer-school-2018-tw.git
