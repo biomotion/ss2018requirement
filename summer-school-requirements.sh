@@ -48,3 +48,6 @@ cd ~/duckietown
 echo -e "\n\n\ncloning summer school 2018 tw"
 cd ~
 git clone https://github.com/duckietown/summer-school-2018-tw.git
+
+echo -e "\n\n\nfinish installing requirements\n"
+echo -e "please reboot your computer and REMEMBER to run docker-requirements.sh"
