@@ -11,6 +11,14 @@ sudo pip install jupyter
 echo -e "\n\n\ninstalling keras..."
 sudo pip install keras
 
+echo -e "\n\n\ninstalling gym duckienav"
+cd ~
+git clone https://github.com/ARG-NCTU/gym-duckienav.git
+cd gym-duckienav
+sudo pip install -e .
+
+
+
 echo -e "\n\n\ninstalling ncsdk..."
 mkdir -p ~/ncs
 cd ~/ncs
