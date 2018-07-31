@@ -14,10 +14,8 @@ sudo pip install keras
 echo -e "\n\n\ninstalling gym duckienav"
 cd ~
 git clone https://github.com/ARG-NCTU/gym-duckienav.git
-cd gym-duckienav
+cd ~/gym-duckienav
 sudo pip install -e .
-
-
 
 echo -e "\n\n\ninstalling ncsdk..."
 mkdir -p ~/ncs
@@ -33,7 +31,7 @@ sudo usermod -aG docker $USER
 echo -e "\n\n\ninstalling OpenAI Gym..."
 cd ~
 git clone https://github.com/openai/gym.git
-cd gym 
+cd ~/gym 
 sudo pip install -e .
 sudo pip install gym[atari]
 cd ~
