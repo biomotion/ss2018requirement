@@ -36,10 +36,6 @@ sudo pip install -e .
 sudo pip install gym[atari]
 cd ~
 
-#echo -e "\n\n\npulling docker images"
-#docker pull rmeertens/tensorflowgym
-#docker pull leotsducker/gym-duckietown
-
 echo -e "\n\n\ncloning duckietown"
 git clone https://github.com/duckietown/Software.git ~/duckietown
 cd ~/duckietown
