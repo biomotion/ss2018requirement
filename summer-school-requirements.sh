@@ -17,15 +17,6 @@ git clone https://github.com/ARG-NCTU/gym-duckienav.git
 cd ~/gym-duckienav
 sudo pip install -e .
 
-echo -e "\n\n\ninstalling ncsdk..."
-cd ~
-sudo apt install python3-pip -y
-mkdir -p ~/ncs
-cd ~/ncs
-git clone https://github.com/movidius/ncsdk.git
-cd ~/ncs/ncsdk
-make install
-
 echo -e "\n\n\ninstalling docker..."
 curl -sSL https://get.docker.com/ | sh
 sudo usermod -aG docker $USER
@@ -37,6 +28,15 @@ cd ~/gym
 sudo pip install -e .
 sudo pip install gym[atari]
 cd ~
+
+echo -e "\n\n\ninstalling ncsdk..."
+cd ~
+sudo apt install python3-pip -y
+mkdir -p ~/ncs
+cd ~/ncs
+git clone https://github.com/movidius/ncsdk.git
+cd ~/ncs/ncsdk
+make install
 
 echo -e "\n\n\ncloning duckietown"
 git clone https://github.com/duckietown/Software.git ~/duckietown
