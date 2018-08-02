@@ -2,7 +2,7 @@
 #all requirements for summer school 2018 tw
 #produced date: July 26, 2018
 echo -e "\n\n\naquiring update..."
-sudo apt update && sudo apt upgrade -y
+sudo apt update
 echo -e "\n\n\nupgrading pip..."
 sudo apt install -y python-pip
 sudo pip install --upgrade pip
@@ -19,7 +19,7 @@ sudo pip install -e .
 
 echo -e "\n\n\ninstalling ncsdk..."
 cd ~
-#sudo apt install python3-pip -y
+sudo apt install python3-pip -y
 mkdir -p ~/ncs
 cd ~/ncs
 git clone https://github.com/movidius/ncsdk.git
