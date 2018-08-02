@@ -2,7 +2,7 @@
 #all requirements for summer school 2018 tw
 #produced date: July 26, 2018
 echo -e "\n\n\naquiring update..."
-sudo apt update
+sudo apt update && sudo apt upgrade -y
 echo -e "\n\n\nupgrading pip..."
 sudo apt install -y python-pip
 sudo pip install --upgrade pip
