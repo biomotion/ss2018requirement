@@ -19,7 +19,7 @@ sudo pip install -e .
 
 echo -e "\n\n\ninstalling ncsdk..."
 cd ~
-sudo apt install python3-pip -y
+#sudo apt install python3-pip -y
 mkdir -p ~/ncs
 cd ~/ncs
 git clone https://github.com/movidius/ncsdk.git
